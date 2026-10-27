@@ -1,0 +1,68 @@
+body {
+  font-family: var(--font-sans);
+  color: var(--text-main);
+  background-color: var(--bg-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-main);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+}
+
+h4 {
+  font-size: 1.15rem;
+}
+
+p {
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Chemical formula styling */
+.chem-formula {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.chem-formula sub {
+  font-size: 0.72em;
+  line-height: 1;
+  bottom: -0.2em;
+  position: relative;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+}
+
+.chem-formula sup {
+  font-size: 0.72em;
+  line-height: 1;
+  top: -0.35em;
+  position: relative;
+  font-weight: 700;
+}
+
+.chem-num {
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
